@@ -10,13 +10,14 @@ body {
 /* CUSTOMIZE THE JUMBOTRON
 --------------------------------------------------
 http://www.agewellphysiotherapy.com.au/uploads/5/2/1/8/5218318/785644_orig.jpg
+http://i0.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg
 */
 .jumbotron{
   margin-bottom:0;
   background: linear-gradient(
       rgba(0, 0, 0, 0.3), 
       rgba(0, 0, 0, 0.3)
-    ),url("http://i0.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg") no-repeat center center;
+    ),url("http://www.agewellphysiotherapy.com.au/uploads/5/2/1/8/5218318/785644_orig.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
   width:100%;
@@ -99,6 +100,15 @@ http://www.agewellphysiotherapy.com.au/uploads/5/2/1/8/5218318/785644_orig.jpg
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+}
+
+/* FOOTER
+------------------------- */
+
+footer {
+  padding-top: 5rem;
+  background-color: orange;
+
 }
 
 
