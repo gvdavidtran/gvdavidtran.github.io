@@ -12,7 +12,6 @@ body {
 http://www.agewellphysiotherapy.com.au/uploads/5/2/1/8/5218318/785644_orig.jpg
 */
 .jumbotron{
-  padding-top: 17rem;
   margin-bottom:0;
   background: linear-gradient(
       rgba(0, 0, 0, 0.3), 
@@ -20,11 +19,15 @@ http://www.agewellphysiotherapy.com.au/uploads/5/2/1/8/5218318/785644_orig.jpg
     ),url("http://i0.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
+  width:100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   text-align: center;
   color: white;
+  
+  display: flex;
+  align-items: center;
 }
 
 .jumbotron h1{
