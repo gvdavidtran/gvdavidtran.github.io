@@ -17,7 +17,7 @@ http://www.agewellphysiotherapy.com.au/uploads/5/2/1/8/5218318/785644_orig.jpg
   background: linear-gradient(
       rgba(0, 0, 0, 0.3), 
       rgba(0, 0, 0, 0.3)
-    ),url("http://i0.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg") no-repeat center center fixed;
+    ),url("http://i0.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
   -webkit-background-size: cover;
