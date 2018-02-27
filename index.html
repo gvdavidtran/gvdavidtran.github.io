@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>David Tran Portfolio</title>
+    <title>David Tran - Front End Developer</title>
 
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
 
     <link rel='stylesheet' href='css/main.css'>
 
@@ -22,6 +23,7 @@
     <![endif]-->
   </head>
   <body data-spy="scroll" data-target=".navbar">
+    <a class="anchor" id="top"></a>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -32,7 +34,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#about"><i class="fa fa-superpowers fa-lg" aria-hidden="true"></i></a>
+          <a class="navbar-brand" href="#top"><i class="fab fa-superpowers fa-lg" aria-hidden="true"></i></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
@@ -47,31 +49,67 @@
       <!-- /.container-fluid -->
     </nav>
     <!-- End of navbar -->
-    <a class="anchor" id="about"></a>
+    
     <div class="jumbotron">
       <div class="container text-center">
         <h1>David Tran</h1>
-        <p>learning <span style="color: #4dd0e1;"> web development</span> & <span style="color: #4dd0e1;">programming</span></p>
+        <p>self-taught <span style="color: #4dd0e1;"> front end </span>web developer</p>
       </div>
     </div>
     <!-- /.jumbotron -->
     <div class="container">
-      <a class="anchor" id="portfolio"></a>
+      <a class="anchor" id="about"></a>
       <section class="row">
-        <h2 class="text-center">Portfolio</h2>
-        <div class="col-sm-6 col-md-4">
-          <h3>Project 1</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        <div class='col-xs-12 col-sm-4 flex-row'>
+          <img src="https://scontent.fymq1-1.fna.fbcdn.net/v/t1.0-9/16649411_10158284155875154_5011344245892353670_n.jpg?oh=b8bd8f9d873d79e29871a0ce77ec17f8&oe=5B436241" alt="photo" class="img-circle img-responsive" height="300" width="300">
         </div>
-        <div class="col-sm-6 col-md-4">
-          <h3>Project 2</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <h3>Project 3</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        <div class='col-xs-12 col-sm-8'>
+          <h2 class='text-center'>About Me</h2>
+          <p>I've been doing web projects on the sideline for the past 3 years while working as a physiotherapist in Montreal. Now I want to take a turn in my career and work as a Front-End Developer.</p>
+          <p>I create awesome web sites and web applications. Hire me to build you a website or even teach you to code!</p>
+          <h2 class='text-center'>Skillset and Interests</h2>
+          <p>Core: HTML5, CSS3, Javascript, Mobile & Responsive Design</p>
+          <p>Library: ReactJS, jQuery, Bootstrap, Material-UI</p>
+          <div class="text-center">
+            <i class="fab fa-html5 fa-5x"></i>
+            <i class="fab fa-css3-alt fa-5x"></i>
+            <i class="fab fa-js-square fa-5x"></i>
+            <i class="fab fa-react fa-5x"></i>
+            <i class="fab fa-github fa-5x"></i>
+          </div>
         </div>
       </section>
+    </div>
+    <div class="container-fluid" id="portfolio-section">
+      <a class="anchor" id="portfolio"></a>
+      <div class="container">
+        <section class="row" >
+          <h2 class="text-center">Portfolio</h2>
+          <div class="col-sm-6 col-md-4">
+            <a href="#" class="thumbnail">
+              <img src="https://cdn.dribbble.com/users/736614/screenshots/2326640/weather_1x.jpg" alt="weather-app" class="img-responsive">
+            </a>
+            <h3>Weather App</h3>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a href="#" class="thumbnail">
+              <img src="https://bizmoneytips.com/wp-content/uploads/2018/02/elon-musk-feature.jpeg" alt="elon-musk" class="img-responsive">
+            </a>
+            <h3>Elon Musk Tribute Page</h3>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a href="#" class="thumbnail">
+              <img src="https://downdetector.com/i/logo/twitch-logo.png" alt="twitch" class="img-responsive">
+            </a>
+            <h3>Twitch API</h3>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="container">
       <hr>
       <a class="anchor" id="contact"></a>
       <section class="row">
@@ -79,16 +117,16 @@
           <h2 class="text-center">Connect with me</h2>
           <div class="row social-row">
             <div class="col-md-2 col-md-offset-2 col-sm-3 col-xs-3">
-              <a href="https://twitter.com/gvdavidtran"><i class="fa fa-twitter fa-3x" aria-hidden="true" target="_blank"></i></a>
+              <a href="https://twitter.com/gvdavidtran"><i class="fab fa-twitter fa-3x" aria-hidden="true" target="_blank"></i></a>
             </div>
             <div class="col-md-2 col-sm-3 col-xs-3">
-              <a href="https://www.linkedin.com/in/gvdavidtran/"><i class="fa fa-linkedin fa-3x" aria-hidden="true" target="_blank"></i></a>
+              <a href="https://www.linkedin.com/in/gvdavidtran/"><i class="fab fa-linkedin fa-3x" aria-hidden="true" target="_blank"></i></a>
             </div>
             <div class="col-md-2 col-sm-3 col-xs-3">
-              <a href="https://github.com/gvdavidtran"><i class="fa fa-github fa-3x" aria-hidden="true" target="_blank"></i></a>
+              <a href="https://github.com/gvdavidtran"><i class="fab fa-github fa-3x" aria-hidden="true" target="_blank"></i></a>
             </div>
             <div class="col-md-2 col-sm-3 col-xs-3">
-              <a href="https://www.freecodecamp.com/gvdavidtran"><i class="fa fa-free-code-camp fa-3x" aria-hidden="true" target="_blank"></i></a>
+              <a href="https://www.freecodecamp.com/gvdavidtran"><i class="fab fa-free-code-camp fa-3x" aria-hidden="true" target="_blank"></i></a>
             </div>
             <!--
             <div class="col-xs-8 col-xs-offset-2">
@@ -99,24 +137,25 @@
         </div>
         <div class="col-sm-6">
           <h2 class="text-center">Drop me a message</h2>
-          <form class="social-row">
+          <p>If you would like to get in touch, please shoot me an email at <a href="mailto:gvdavid.tran@gmail.com">gvdavid.tran@gmail.com</a> and I’ll try get back to you within a day or so!</p>
+          <p>Or you can fill this form. It will automatically put your message in an email, you'll just have to send it!</p>
+          <form class="social-row" action="mailto:gvdavid.tran@gmail.com" method="post" enctype="text/plain" target="_blank">
             <div class="form-group">
-              <label for="exampleInputName1">Name</label>
-              <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+              <label for="InputName1">Name</label>
+              <input type="text" class="form-control" id="InputName1" placeholder="Name" name='name'>
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              <label for="InputEmail1">Email address</label>
+              <input type="email" class="form-control" id="InputEmail1" placeholder="Email" name='email'>
             </div>
             <div class="form-group">
-              <label for="exampleInputText1">Message</label>
-              <textarea class="form-control" id="exampleInputText1" placeholder="Message"></textarea>
+              <label for="InputText1">Message</label>
+              <textarea class="form-control" id="InputText1" placeholder="Message" name='message'></textarea>
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
         </div>
       </section>
-      <hr>
     </div>
     <!-- /.container -->
     <footer>

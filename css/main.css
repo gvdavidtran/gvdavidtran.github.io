@@ -65,7 +65,23 @@ a.anchor {
 }
 
 section{
-  min-height: 70vh;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+}
+
+#portfolio-section {
+  background-color: #1C2331;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 30px;
 }
 
 /* fix iOS bug not displaying 100vh correctly */
