@@ -1,4 +1,5 @@
-
+RewriteEngine On
+RewriteRule (.*)index\.html$ /$1 [NS,R=301,L]
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
@@ -15,8 +16,5 @@ ExpiresByType application/x-shockwave-flash "access 1 month"
 ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 1 month"
 
-RewriteEngine On 
-RewriteCond %{HTTP_HOST} ^http://gvdavidtran.com/index.php [NC] 
-RewriteRule ^(.*)$ http://gvdavidtran.com [L,R=301]
 </IfModule>
 ## EXPIRES CACHING ##
