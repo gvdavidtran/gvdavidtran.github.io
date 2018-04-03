@@ -1,5 +1,6 @@
-RewriteEngine On
-RewriteRule ^index.html$ /index.php [R,L]
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^http://gvdavidtran.com/index.php [NC] 
+RewriteRule ^(.*)$ http://gvdavidtran.com [L,R=301]
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
